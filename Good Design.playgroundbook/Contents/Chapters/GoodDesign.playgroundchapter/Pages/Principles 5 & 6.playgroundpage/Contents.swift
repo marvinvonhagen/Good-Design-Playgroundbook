@@ -2,7 +2,7 @@
 //#-code-completion(identifier, show, iPhone, Blackberry, Xiaomi)
 //#-hidden-code
 enum ShotOn {
-    case iPhoneX, iPhoneXS, Blackberry, Xiaomi
+    case iPhone, Blackberry, Xiaomi
 }
 
 

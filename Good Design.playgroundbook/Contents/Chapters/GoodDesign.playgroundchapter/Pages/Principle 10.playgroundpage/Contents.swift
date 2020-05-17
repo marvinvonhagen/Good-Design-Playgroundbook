@@ -1,12 +1,7 @@
 //#-code-completion(everything, hide)
 //#-code-completion(identifier, show, removeHomeButton(), addHomeButton())
 //#-hidden-code
-enum HopefullyAt {
-    case ApplePark
-}
-func showMeInJune(hopefullyAt: HopefullyAt) {
-    return
-}
+_setup(imgSet: 61)
 //#-end-hidden-code
 /*:
  # 10 – Good design is as little design as possible
@@ -22,7 +17,3 @@ func showMeInJune(hopefullyAt: HopefullyAt) {
  
  *Marvin*
  */
-showMeInJune(hopefullyAt: .ApplePark)
-//#-hidden-code
-_setup(imgSet: 61)
-//#-end-hidden-code
