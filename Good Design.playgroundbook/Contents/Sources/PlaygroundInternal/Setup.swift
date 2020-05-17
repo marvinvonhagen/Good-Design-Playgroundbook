@@ -4,7 +4,7 @@ import RealityKit
 
 
 public func _setup(imgSet: Int) {
-    if imgSet > 21 {
+    if imgSet > 22 {
         let viewController = ImageViewController(imgSet: imgSet)
         PlaygroundPage.current.liveView = viewController
         return
@@ -19,6 +19,8 @@ public func _setup(imgSet: Int) {
         fileName = "Android Fragmentation"
     case 21:
         fileName = "artLogosAR"
+    case 22:
+        fileName = "rainbowLogo"
     default:
         return
     }

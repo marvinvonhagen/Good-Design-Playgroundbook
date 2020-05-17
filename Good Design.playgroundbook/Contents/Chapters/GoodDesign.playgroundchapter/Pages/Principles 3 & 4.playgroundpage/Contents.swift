@@ -1,12 +1,12 @@
 //#-code-completion(everything, hide)
-//#-code-completion(identifier, show, firstLogo, rainbowLogo, artLogos)
+//#-code-completion(identifier, show, rainbowLogo, artLogos)
 //#-hidden-code
 import PlaygroundSupport
 import UIKit
 import RealityKit
 
 enum Version {
-    case firstLogo, rainbowLogo, artLogos
+    case rainbowLogo, artLogos
 }
 
 func showAppleLogo(version: Version) {
