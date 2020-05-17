@@ -33,7 +33,7 @@ func showPicture(shotOn: ShotOn) {
  
  As Steve Jobs said: *Design is not just what it looks and feels like. Design is how it works.* Therefore, how the camera works is part of a Smartphone's design.
 
- Tech Reviewer Marques Brownlee (a.k.a. MKBHD) ran a blind survey in November 2018 to find out the best smartphone camera. He put 16 Smartphones into the competition on social media – the results were shocking! While iPhone X & XS or Google Pixel 3 are generally seen as the best smartphone cameras, they were out in the first round. For example, the Blackberry KEY2 with a very low-quality camera won by over 150,000 votes against the iPhone Xs.
+ Tech Reviewer Marques Brownlee (a.k.a. MKBHD) ran his first blind survey in November 2018 to find out the best smartphone camera. He put 16 Smartphones into the competition on social media – the results were shocking! While iPhone Xꜱ was generally seen as the best smartphone camera, it was out in the first round – the Blackberry KEY2, with a very low-quality camera, won the vote against iPhone by over 150,000 votes.
   
  Almost always, the brighter, more saturated photo won. Because social media platforms like Twitter and Instagram compress pictures massively, differences in things like sharpness disappear. When now putting two pictures from different cameras side-by-side, untrained eyes almost always choose the 'populistic' picture, which looks brighter and warmer. Many low-price phones edit photos directly to let them appear as if the camera was capturing more light than it actually does.
 

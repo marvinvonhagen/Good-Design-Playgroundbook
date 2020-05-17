@@ -2,7 +2,7 @@
 //  ImageViewController.swift
 //  Book_Sources
 //
-//  Created by Cem-Marvin von Hagen on 18.03.19.
+//  Created by Marvin von Hagen
 //
 
 import Foundation
@@ -67,16 +67,8 @@ public class ImageViewController: UIViewController, PlaygroundLiveViewSafeAreaCo
         
         if orientation == "portrait" {
             switch imgSet {
-            case 11:
-                return UIImage(named: "iOSFragmentation")!
-            case 12:
-                return UIImage(named: "AndroidFragmentation")!
-            case 21:
-                return UIImage(named: "firstLogo.jpg")!
             case 22:
                 return UIImage(named: "rainbowLogo.jpg")!
-            case 23:
-                return UIImage(named: "OctKeynote\(rand).jpg")!
             case 31:
                 return UIImage(named: "PAppleiPhoneX.jpg")!
             case 32:
@@ -106,16 +98,8 @@ public class ImageViewController: UIViewController, PlaygroundLiveViewSafeAreaCo
             }
         } else {
             switch imgSet {
-            case 11:
-                return UIImage(named: "iOSFragmentation")!
-            case 12:
-                return UIImage(named: "AndroidFragmentation")!
-            case 21:
-                return UIImage(named: "firstLogo.jpg")!
             case 22:
                 return UIImage(named: "rainbowLogo.jpg")!
-            case 23:
-                return UIImage(named: "OctKeynote\(rand).jpg")!
             case 31:
                 return UIImage(named: "LAppleiPhoneX.jpg")!
             case 32:
@@ -134,8 +118,6 @@ public class ImageViewController: UIViewController, PlaygroundLiveViewSafeAreaCo
                 return UIImage(named: "iPodClassic.jpg")!
             case 51:
                 return UIImage(named: "PatentedPizzaBox.jpg")!
-            case 52:
-                return UIImage(named: "DoorHandle.jpg")!
             case 53:
                 return UIImage(named: "SolarRoof.jpg")!
             case 54:

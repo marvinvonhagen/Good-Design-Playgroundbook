@@ -1,17 +1,17 @@
 //#-code-completion(everything, hide)
-//#-code-completion(identifier, show, firstLogo, rainbowLogo, artLogo)
+//#-code-completion(identifier, show, firstLogo, rainbowLogo, artLogos)
 //#-hidden-code
 import PlaygroundSupport
 import UIKit
 import RealityKit
 
 enum Version {
-    case firstLogo, rainbowLogo, artLogo
+    case firstLogo, rainbowLogo, artLogos
 }
 
 func showAppleLogo(version: Version) {
     switch version {
-    case .artLogo:
+    case .artLogos:
         _setup(imgSet: 21)
     case .rainbowLogo:
         _setup(imgSet: 22)
@@ -32,6 +32,6 @@ func showAppleLogo(version: Version) {
  What logo in the world talks more than the ? It's so self-explanatory that you immediately know the company's name without having even one actual letter in the logo. Also, it's highly aesthetic, as there are little companies in the world who could have made art out of their logo just like Apple does from time to time.
 
  * Callout(Take a look):
-  If you call `showAppleLogo(version:)` with the parameter `.artLogo`, you can see a selection of arty Apple logos; tap on the framed picture to see the next one. If you want to see the legendary rainbow logo,  use `.rainbowLogo`! 🍎
+  If you call `showAppleLogo(version:)` with the parameter `.artLogos`, you can see a selection of arty Apple logos; tap on the framed picture to see the next one. If you want to see the legendary rainbow logo,  use `.rainbowLogo`! 🍎
  */
 showAppleLogo(version: ./*#-editable-code*/<#T##Apple Logo Type##String#>/*#-end-editable-code*/)
