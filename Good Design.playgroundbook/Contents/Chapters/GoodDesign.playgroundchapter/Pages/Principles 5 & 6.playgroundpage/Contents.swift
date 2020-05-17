@@ -1,5 +1,5 @@
 //#-code-completion(everything, hide)
-//#-code-completion(identifier, show, iPhoneX, iPhoneXS, Blackberry, Xiaomi)
+//#-code-completion(identifier, show, iPhone, Blackberry, Xiaomi)
 //#-hidden-code
 enum ShotOn {
     case iPhoneX, iPhoneXS, Blackberry, Xiaomi
@@ -9,9 +9,7 @@ enum ShotOn {
 
 func showPicture(shotOn: ShotOn) {
     switch shotOn {
-    case .iPhoneX:
-        _setup(imgSet: 31)
-    case .iPhoneXS:
+    case .iPhone:
         _setup(imgSet: 32)
     case .Xiaomi:
         _setup(imgSet: 33)
@@ -33,13 +31,13 @@ func showPicture(shotOn: ShotOn) {
  
  As Steve Jobs said: *Design is not just what it looks and feels like. Design is how it works.* Therefore, how the camera works is part of a Smartphone's design.
 
- Tech Reviewer Marques Brownlee (a.k.a. MKBHD) ran his first blind survey in November 2018 to find out the best smartphone camera. He put 16 Smartphones into the competition on social media – the results were shocking! While iPhone Xꜱ was generally seen as the best smartphone camera, it was out in the first round – the Blackberry KEY2, with a very low-quality camera, won the vote against iPhone by over 150,000 votes.
+ Tech Reviewer Marques Brownlee (a.k.a. MKBHD) ran his first blind survey in November 2018 to find out the best smartphone camera. He put 16 Smartphones into the competition on social media – the results were shocking! While iPhone Xs was generally seen as the best smartphone camera, it was out in the first round – the Blackberry KEY2, with a very low-quality camera, won the vote against iPhone by over 150,000 votes.
   
  Almost always, the brighter, more saturated photo won. Because social media platforms like Twitter and Instagram compress pictures massively, differences in things like sharpness disappear. When now putting two pictures from different cameras side-by-side, untrained eyes almost always choose the 'populistic' picture, which looks brighter and warmer. Many low-price phones edit photos directly to let them appear as if the camera was capturing more light than it actually does.
 
  iPhones, however, shoot very natural pictures with many details. Dieter Rams would call them honest – they don't try to fool the consumer with punchy filters. In the same way, the pictures are unobtrusive - they don't let the photographed subject appear unnaturally colorful but instead restrained.
 
  * Callout(Take a look):
- If you want to take a look at the pictures of the iPhones and the phones that won against them by far, call the function `showPicture(shotOn:)`. Possible arguments are `.iPhoneX`, `.iPhoneXS`, `.Blackberry` (KEY2) and `.Xiaomi` (Pocophone F1) 📸
+ If you want to take a look at the pictures of the iPhones and the lower-quality phones that won against them by far, call the function `showPicture(shotOn:)`. Possible arguments are `.iPhone` (Xs), `.Blackberry` (KEY2) and `.Xiaomi` (Pocophone F1) 📸
  */
 showPicture(shotOn: ./*#-editable-code*/<#T##Name of Smartphone##String#>/*#-end-editable-code*/)
