@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>About Dieter Rams</string>
+	<string>Introduction</string>
 	<key>Pages</key>
 	<array>
 		<string>DieterRams.cutscenepage</string>
