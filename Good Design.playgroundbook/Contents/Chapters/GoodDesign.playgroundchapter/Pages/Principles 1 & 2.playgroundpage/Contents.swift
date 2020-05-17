@@ -34,7 +34,7 @@ func showFragmentation(os: OS) {
  Software, however, even increases its innovativeness and usefulness during the lifecycle of the product. Especially Apple improves their products after people bought them via over-the-air updates. They install themselves for free at night without requiring the consumer to do anything. Apple supports their products significantly longer than everyone else, which leads to much better Operating System fragmentation.
  
  * Callout(Take a look):
- If you want to compare iOS' fragmentation with Android's, call `showFragmentation(OS:)` and use the parameters `.iOS` or `.Android` 📱
+ If you want to compare Android's fragmentation with the software fragmentation on iPhones, call `showFragmentation(OS:)` and use the parameters `.iOS` or `.Android` 📱
  */
 
 showFragmentation(os: ./*#-editable-code*/<#T##Name of OS##String#>/*#-end-editable-code*/)
